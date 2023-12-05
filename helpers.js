@@ -37,9 +37,9 @@ export function setupDisplay(elementId) {
  * Returns a promise which will be resolved after the given time
  * 
  * @example
- * await sleep(1000) // sleeps for 1second / 1000 milliseconds
+ * await sleep(1000) // waits for 1second / 1000 milliseconds
  * 
- * await sleep(2000) // sleeps for 2second / 2000 milliseconds
+ * await sleep(2000) // waits for 2second / 2000 milliseconds
  * 
  * @param {number} milliseconds 
  * @returns 
