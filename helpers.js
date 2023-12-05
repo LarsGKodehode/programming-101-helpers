@@ -23,6 +23,9 @@ export function setupDisplay(elementId) {
   /**
    * Updates the text content of the element it was setup for
    * 
+   * @example
+   * display("Hello World")
+   * 
    * @param {string} message 
    */
   const updateDisplay = (message) => { element.textContent = message }
